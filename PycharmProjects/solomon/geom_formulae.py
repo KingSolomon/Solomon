@@ -51,17 +51,17 @@ def ellipse_area(radius1, radius2):
     return pi*radius1*radius2
 
 
-def trapezoid_area(height, base1, base2):
+def trapezoid_area(height, side1, side2):
     """
     this calculates the area of a trapezoid
     @param height:length of the perpendicular height of the trapezoid
-    @param base1: top length of the trapezoid
-    @param base2: bottom length of the trapezoid
+    @param side1: length of one parallel side of the trapezoid
+    @param side2: length of the other parallel side of the trapezoid
     @return:the area of the trapezoid
     >>>trapezoid_area(4,2,3)
     10
     """
-    return height/2*(base1+base2)
+    return height/2*(side1+side2)
 
 
 def equilateral_triangle_area_alternative_method(side):
