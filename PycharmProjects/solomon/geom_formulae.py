@@ -64,7 +64,7 @@ def trapezoid_area(height, base1, base2):
     return height/2*(base1+base2)
 
 
-def equilateral_triangle_area_alternative(side):
+def equilateral_triangle_area_alternative_method(side):
     """
     calculate the area of an equilateral triangle given one side
     @param side:the length of one side of the equilateral triangle
@@ -112,7 +112,7 @@ def sphere_volume(radius):
 
 def cylinder_volume(radius, height):
     """
-    calculate the volume of a cylinder with the radius and height given (in unit cube)
+    calculate the volume of a cylinder given radius and height (in unit**3)
     @param radius: radius of the base of the cylinder
     @param height: height of the cylinder
     @return:the volume of the cylinder
