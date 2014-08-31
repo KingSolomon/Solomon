@@ -69,7 +69,7 @@ def equilateral_triangle_area_alternative_method(side):
     calculate the area of an equilateral triangle given one side
     @param side:the length of one side of the equilateral triangle
     @return:the area of the equilateral triangle
-    >>>equilateral_triangle_area_alternative(4)
+    >>>equilateral_triangle_area_alternative_method(4)
     6.92820323028
     """
     return (math.sqrt(3.0)/4.0)*side*side
