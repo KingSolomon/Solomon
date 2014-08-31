@@ -61,7 +61,7 @@ def trapezoid_area(height, side1, side2):
     >>>trapezoid_area(4,2,3)
     10
     """
-    return height/2*(side1+side2)
+    return height/2.0*(side1+side2)
 
 
 def equilateral_triangle_area_alternative_method(side):

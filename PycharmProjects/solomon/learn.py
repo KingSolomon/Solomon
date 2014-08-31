@@ -1,5 +1,6 @@
 __author__ = 'nii'
 from numbers import Number
+import turtle
 
 
 def rectangle_area(length, breadth):
@@ -16,3 +17,5 @@ print rectangle_area(4,5)
 
 def square_area(side):
     return 0
+
+
